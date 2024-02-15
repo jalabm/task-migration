@@ -20,6 +20,7 @@ namespace MVC.Models.Contexts
 
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Color> Colors { get; set; }
+        public DbSet<Brand> Brands { get; set; }
     }
 }
 
